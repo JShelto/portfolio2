@@ -4,6 +4,7 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
+  overflow: hidden;
 }
 
 .leftpane {
@@ -15,6 +16,8 @@ body {
   padding: 0px;
   margin: 0px;
   float: left;
+  border-right: 2px solid rgb(191, 165, 106);
+  overflow-y: hidden;
 }
 
 .name {
@@ -45,4 +48,35 @@ body {
 
 .name p:nth-child(4) {
   letter-spacing: 10px;
+}
+
+.tab {
+  z-index: -1;
+  background-color: blue;
+  position: fixed;
+  border-radius: 5px;
+  left: 450px;
+}
+
+.tab p{
+  text-align: center;
+  font-family: helvetica;
+  font-size: 20px;
+  color: (0, 0, 0);
+}
+
+#about {
+  top: 20%;
+}
+
+#projects {
+  top: 40%;
+}
+
+#resume {
+  top: 60%;
+}
+
+#contact {
+  top: 80%;
 }
