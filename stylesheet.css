@@ -53,7 +53,6 @@ body {
   border-radius: 5px;
   border-right:  1px solid rgb(248, 218, 162);
   border-bottom: 1px solid rgb(248, 218, 162);
-  left: 450px;
   box-shadow: 3px 3px 5px #888888;
 }
 
@@ -62,20 +61,42 @@ body {
   font-family: helvetica;
   font-size: 20px;
   color: rgb(252, 252, 252);
+  padding-left: 80px;
+  padding-right: 40px;
 }
 
 #about {
-  top: 20%;
+  left: 336px;
+  top: 15%;
+}
+
+#about:hover{
+
 }
 
 #projects {
-  top: 40%;
+  left: 317px;
+  top: 35%;
+}
+
+#projects:hover {
+
 }
 
 #resume {
-  top: 60%;
+  left: 314px;
+  top: 55%;
+}
+
+#resume:hover {
+
 }
 
 #contact {
-  top: 80%;
+  left: 316px;
+  top: 75%;
+}
+
+#contact:hover{
+  
 }
