@@ -4,7 +4,7 @@ body {
   padding: 0px;
   margin: 0px;
   background: rgb(0, 0, 0);
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .leftpane {
@@ -115,6 +115,9 @@ body {
   left: 502px;
 }
 
+.aboutme h2, h4 ,h5 , h6, p, li {
+}
+
 .aboutme h1 {
   margin: 0 auto;
   position: relative;
@@ -184,7 +187,6 @@ body {
 }
 .myresume h4, h5{
   text-align: left;
-  display: inline;
   padding: 0;
   margin: 0;
   float: left;
@@ -193,6 +195,32 @@ body {
 .myresume p{
   padding: 0;
   margin: 0;
+  font-size: 12px;
+}
+
+.myresume ul {
+  padding-left: 45px;
+  text-align: left;
+}
+
+.myresume li {
+  padding-left: 5px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.myresume h2 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+
+.myresume a{
+  text-decoration: none;
+}
+
+.projects p {
+  line-height: 1.4;
+  text-align: left;
 }
 
 .role {
@@ -201,7 +229,6 @@ body {
 }
 
 .location {
-  display: inline;
   float: right;
   font-size: 12px;
 }
