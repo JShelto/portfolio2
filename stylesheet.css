@@ -58,10 +58,10 @@ body {
 }
 
 .tab:hover {
-  transform: translate(40px,0);
+  transform: translate(150px,0);
   -webkit-transform: translate(150px,0);
-  -o-transform: translate(350px,0);
-  -moz-transform: translate(350px,0); 
+  -o-transform: translate(150px,0);
+  -moz-transform: translate(150px,0); 
 
   transition: all 0.7s ease-in-out;
   -webkit-transition: all 0.7s ease-in-out;
@@ -116,6 +116,7 @@ body {
 }
 
 .aboutme h2, h4 ,h5 , h6, p, li {
+    font-family: tahoma;
 }
 
 .aboutme h1 {
