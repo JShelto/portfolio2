@@ -1,11 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic);
 
 body {
-  width: 100%;
-  height: 100%;
   padding: 0px;
   margin: 0px;
-  overflow: hidden;
+  background: rgb(0, 0, 0);
+  overflow-x: hidden; 
 }
 
 .leftpane {
@@ -47,6 +46,7 @@ body {
   letter-spacing: 10px;
 }
 
+/*linking tabs*/
 .tab {
   z-index: -1;
   background-color: rgb(252, 226, 167);
@@ -98,17 +98,21 @@ body {
   top: 75%;
 }
 
+/*right pane */
 .rightpane {
-  z-index: -2;
-  position: fixed;
-  background-color: rgb(0, 0, 0);
+  z-index: -3;
+  position: absolute;
   left: 502px;
-  height: 100%;
+  width: 100%;
 }
 
+/*about page */
 .aboutme {
   text-align: center;
   height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 502px;
 }
 
 .aboutme h1 {
@@ -129,7 +133,7 @@ body {
   margin: 10px auto;
 }
 
-span {
+.first-letter {
   font-size: 40px;
   line-height: 0px;
 }
@@ -152,4 +156,52 @@ span {
   top: 1px;
   width: 220px;
   height: 220px;
+}
+
+/*resume page*/
+
+.myresume {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  z-index: -2;
+  width: 60%;
+  right: 18%;
+  height: 90%;
+}
+
+.res-container {
+  text-align: center;
+  position: relative;
+  margin: 5% auto;
+  width: 90%;
+  background: rgb(252, 252, 252);
+  border-radius: 10px;
+}
+
+.res-content{
+  padding: 20px;
+}
+.myresume h4, h5{
+  text-align: left;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.myresume p{
+  padding: 0;
+  margin: 0;
+}
+
+.role {
+  text-align: left;
+  font-size: 12px;
+}
+
+.location {
+  display: inline;
+  float: right;
+  font-size: 12px;
 }
