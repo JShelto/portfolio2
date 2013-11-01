@@ -103,7 +103,7 @@ body {
   z-index: -3;
   position: absolute;
   left: 502px;
-  width: 100%;
+  width: 50%;
 }
 
 /*about page */
@@ -164,9 +164,9 @@ body {
   text-align: center;
   position: relative;
   margin: 0 auto;
-  z-index: -2;
-  width: 60%;
-  right: 18%;
+  /*z-index: -2;*/
+  width: 100%;
+  right: -14%;
   height: 90%;
 }
 
@@ -240,4 +240,38 @@ body {
 .location {
   float: right;
   font-size: 12px;
+}
+
+/* contact page */
+
+.contactme {
+  text-align: center;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 502px;
+}
+
+.contactme h1 {
+  margin: 0 auto;
+  position: relative;
+  font-family: helvetica;
+  color: rgb(252, 252, 252);
+  padding: 0 0 20px 0;
+}
+
+.contactme ul {
+  list-style-type: none;
+}
+
+.tweetme p{
+  color: white;
+  font-size: 75px;
+  display:inline;
+}
+
+.tweetme img{
+  width: 150px;
+  height: 150px;
+  margin-top: 100px;
 }
