@@ -115,10 +115,6 @@ body {
   left: 502px;
 }
 
-.aboutme h2, h4 ,h5 , h6, p, li {
-    font-family: tahoma;
-}
-
 .aboutme h1 {
   margin: 0 auto;
   position: relative;
@@ -174,6 +170,10 @@ body {
   height: 90%;
 }
 
+/*.myresume h2, h4 ,h5 , h6, p, li {
+    font-family: helvetica;
+} */
+
 .res-container {
   text-align: center;
   position: relative;
@@ -181,6 +181,14 @@ body {
   width: 90%;
   background: rgb(252, 252, 252);
   border-radius: 10px;
+  background: rgb(254,254,254);
+  background: -moz-linear-gradient(-45deg,  rgba(254,254,254,1) 0%, rgba(209,209,209,1) 42%, rgba(219,219,219,1) 60%, rgba(226,226,226,1) 95%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(42%,rgba(209,209,209,1)), color-stop(60%,rgba(219,219,219,1)), color-stop(95%,rgba(226,226,226,1)));
+  background: -webkit-linear-gradient(-45deg,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 42%,rgba(219,219,219,1) 60%,rgba(226,226,226,1) 95%);
+  background: -o-linear-gradient(-45deg,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 42%,rgba(219,219,219,1) 60%,rgba(226,226,226,1) 95%);
+  background: -ms-linear-gradient(-45deg,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 42%,rgba(219,219,219,1) 60%,rgba(226,226,226,1) 95%);
+  background: linear-gradient(135deg,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 42%,rgba(219,219,219,1) 60%,rgba(226,226,226,1) 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2',GradientType=1 );
 }
 
 .res-content{
