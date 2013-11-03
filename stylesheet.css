@@ -316,6 +316,15 @@ body {
   color: rgb(252, 252, 252);
 }
 
-.myprojects a:hover {
-  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+.cscout a:hover {
+  text-shadow: -1px 1px 8px rgb(161, 28, 194), 1px -1px 8px #fff;
 }
+
+.wigwm a:hover {
+  text-shadow: -1px 1px 8px rgb(115, 182, 230), 1px -1px 8px #fff;
+}
+
+.crunch a:hover {
+  text-shadow: -1px 1px 8px rgb(252, 210, 113), 1px -1px 8px #fff;
+}
+
