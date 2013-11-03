@@ -180,7 +180,7 @@ body {
   margin: 5% auto;
   width: 90%;
   background: rgb(252, 252, 252);
-  border-radius: 10px;
+  border-radius: 30px;
   background: rgb(254,254,254);
   background: -moz-linear-gradient(-45deg,  rgba(254,254,254,1) 0%, rgba(209,209,209,1) 42%, rgba(219,219,219,1) 60%, rgba(226,226,226,1) 95%);
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(42%,rgba(209,209,209,1)), color-stop(60%,rgba(219,219,219,1)), color-stop(95%,rgba(226,226,226,1)));
@@ -250,11 +250,11 @@ body {
 /* contact page */
 
 .contactme {
-  text-align: center;
   height: 100%;
-  background-color: rgb(0, 0, 0);
-  position: fixed;
-  left: 502px;
+  background-color: blue;
+  position: relative;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .contactme h1 {
@@ -281,3 +281,19 @@ body {
   margin-top: 100px;
 }
 
+/* projects page */
+
+.myprojects{
+  text-align: center;
+}
+
+.myprojects img {
+  width: 342px;
+  height: 197px;
+}
+
+.myprojects p {
+  font-family: helvetica;
+  font-size: 12px;
+  color: rgb(252, 252, 252);
+}
