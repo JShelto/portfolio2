@@ -285,15 +285,28 @@ body {
 
 .myprojects{
   text-align: center;
+  margin: 0 auto;
+  padding-left: 25%;
 }
 
 .myprojects img {
   width: 342px;
   height: 197px;
+  border-radius: 15px;
+  border: 3px solid rgb(252, 252, 252);
 }
 
 .myprojects p {
   font-family: helvetica;
   font-size: 12px;
+  color: rgb(252, 252, 252);
+}
+
+.myprojects ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.myprojects a:active, a:visited, a:link {
   color: rgb(252, 252, 252);
 }
