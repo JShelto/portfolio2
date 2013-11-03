@@ -290,9 +290,9 @@ body {
 }
 
 .myprojects img {
-  width: 342px;
-  height: 197px;
-  border-radius: 15px;
+  width: 171px;
+  height: 97px;
+  border-radius: 10px;
   border: 3px solid rgb(252, 252, 252);
 }
 
@@ -302,11 +302,20 @@ body {
   color: rgb(252, 252, 252);
 }
 
-.myprojects ul {
-  padding: 0;
+.myprojects li {
+  padding-right: 20px;
   list-style-type: none;
+  display: inline;
+}
+
+.myprojects a {
+  text-decoration: none;
 }
 
 .myprojects a:active, a:visited, a:link {
   color: rgb(252, 252, 252);
+}
+
+.myprojects a:hover {
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
