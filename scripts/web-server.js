@@ -8,7 +8,6 @@ var util = require('util'),
 
 var port = process.env.PORT || 5000;
 
-var DEFAULT_PORT = 8000;
 
 function main(argv) {
   new HttpServer({
