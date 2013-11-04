@@ -2,7 +2,6 @@
   "name": "jshelto-portfolio",
   "version": "0.0.1",
   "description": "personal portfolio for Joshua Shelto",
-  "main": "./scripts/web-server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/JShelto/portfolio2.git"
