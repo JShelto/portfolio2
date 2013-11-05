@@ -12,16 +12,6 @@
   <link rel="stylesheet" href="/source/jquery.fancybox.css" type="text/css" media="screen" />
   <script type="text/javascript" src="/source/jquery.fancybox.pack.js"></script>
 
-  <!--- adds fancybox gallery functionality for project images-->
-   <script>
-        $(document).ready(function() {
-            $('.fancybox').fancybox();
-        });
-    </script>
-
-
-  <!---<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
-  
 </head>
 <body>
   <div class="leftpane">
@@ -52,6 +42,9 @@
   <div ng-app="myApp" class="rightpane">
    <div ng-view></div>
   </div>
+
+  <script type="text/javascript" src="fancy.js"></script>
+
 
 </body>
 </html>

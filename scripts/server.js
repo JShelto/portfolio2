@@ -4,19 +4,13 @@ var parse = require('url').parse;
 
 require('http').createServer(function(req, res) {
   var path = parse(req.url).path;
-  if (path === '/') path = '/index.html';
+  if (path === '/') path = '/index.html';  
   fs.readFile('.' + path, function(err, data) {
     if (err) {
       console.error(err);
       if (err.code === 'ENOENT') {
         res.writeHead(404);
-        fs.readFile('.' + '/public/404.html', function(err, data){
-          if (err){
-            console.error(err);
-        }
-          else 
-            res.end(data);
-        });
+        res.end('Not Found: ' + path);
       }
       else {
         res.writeHead(500);
@@ -30,3 +24,4 @@ require('http').createServer(function(req, res) {
   });
 }).listen(process.env.PORT || 5000);
 console.log('Listening on ' + (process.env.PORT || 5000));
+
