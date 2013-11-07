@@ -4,7 +4,6 @@ body {
   padding: 0px;
   margin: 0px;
   background: rgb(0, 0, 0);
-  overflow-x: hidden;
 }
 
 .leftpane {
@@ -171,10 +170,6 @@ body {
   height: 90%;
 }
 
-/*.myresume h2, h4 ,h5 , h6, p, li {
-    font-family: helvetica;
-} */
-
 .res-container {
   text-align: center;
   position: relative;
@@ -332,8 +327,4 @@ body {
 
 
 
-@media(max-width: 500px){
-  .leftpane {
-    display: none;
-  }
-}
+

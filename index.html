@@ -2,15 +2,11 @@
 <html lang="en" ng-app='content'>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
   <title>joshuamarc.us - the web development portfolio of Joshua Shelto</title>
   <link rel="stylesheet" type="text/css" href="/stylesheet.css">
   <link rel="stylesheet" type="text/css" href="/animate-custom.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
-  <script type="text/javascript" src="portfolio.js"></script>
-
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <link rel="stylesheet" href="/source/jquery.fancybox.css" type="text/css" media="screen" />
-  <script type="text/javascript" src="/source/jquery.fancybox.pack.js"></script>
 
 </head>
 <body>
@@ -25,7 +21,7 @@
 
   <a href="#/about"><div class="tab" id="about">
     <p>About Me</p>
-  </div></a> P
+  </div></a>
 
   <a href="#/projects"><div ng-click class="tab" id="projects">
     <p>My Projects</p>
@@ -43,6 +39,12 @@
    <div ng-view></div>
   </div>
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+  <script type="text/javascript" src="portfolio.js"></script>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script type="text/javascript" src="/source/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="fancy.js"></script>
 
 
