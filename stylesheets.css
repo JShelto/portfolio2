@@ -9,7 +9,6 @@ body {
 .leftpane {
   display: block; 
   background-image:url('images/dirty_yellow.jpg');
-  background-size: cover;
   width: 500px;
   height: 100%;
   position: fixed;
@@ -32,7 +31,7 @@ body {
   font-family: helvetica;
   font-size: 130px;
   font-weight: 900;
-  color: (0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .name p:nth-child(1) {
