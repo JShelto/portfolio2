@@ -152,10 +152,10 @@ body {
 
 .aboutme .mypic {
   position: absolute;
-  right: 1px;
+  left: 1px;
   top: 1px;
-  width: 220px;
-  height: 220px;
+  width: 150px;
+  height: 150px;
 }
 
 /*resume page*/
