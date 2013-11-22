@@ -9,6 +9,7 @@ body {
 .leftpane {
   display: block; 
   background-image:url('images/dirty_yellow.jpg');
+  background-size: cover;
   width: 500px;
   height: 100%;
   position: fixed;
