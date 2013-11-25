@@ -287,7 +287,9 @@ body {
   padding-left: 25%;
 }
 
-
+.link_out {
+  display: block;
+}
 
 .screenshot {
   width: 171px;
