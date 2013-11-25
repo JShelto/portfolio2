@@ -81,22 +81,22 @@ body {
 
 #about {
   left: 336px;
-  top: 15%;
+  top: 100px;
 }
 
 #projects {
   left: 317px;
-  top: 35%;
+  top: 250px;
 }
 
 #resume {
   left: 314px;
-  top: 55%;
+  top: 400px;
 }
 
 #contact {
   left: 316px;
-  top: 75%;
+  top: 550px;
 }
 
 /*right pane */
