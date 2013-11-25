@@ -64,10 +64,10 @@ body {
   -o-transform: translate(150px,0);
   -moz-transform: translate(150px,0); 
 
-  transition: all 0.7s ease-in-out;
-  -webkit-transition: all 0.7s ease-in-out;
-  -o-transform: all 0.7s ease-in-out; 
-  -moz-transform: all 0.7s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transform: all 0.5s ease-in-out; 
+  -moz-transform: all 0.5s ease-in-out;
 }
 
 .tab p{
@@ -225,10 +225,6 @@ body {
   text-decoration: none;
 }
 
-.myresume a:link {
-  color: rgb(0, 0, 0);
-}
-
 .projects p {
   line-height: 1.4;
   text-align: left;
@@ -287,8 +283,8 @@ body {
   padding-left: 25%;
 }
 
-.link_out {
-  display: block;
+.external {
+  line-height: 120px;
 }
 
 .screenshot {
