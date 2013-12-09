@@ -51,6 +51,11 @@ button {
   position: absolute;
   z-index: 1;
   left: 509px;
+  background-color: rgb(252, 226, 167);
+  border-top: 2px solid rgb(247, 231, 197);
+  border-left: 2px solid rgb(247, 231, 197);
+  border-right:  2px solid rgb(201, 179, 132);
+  border-bottom: 2px solid rgb(201, 179, 132);
 }
 
 /*linking tabs*/
@@ -273,7 +278,6 @@ button {
 }
 
 .contactme ul {
-  text-align: justify;
   position: relative;
   padding: 0 200px;
   margin: 10px auto;
@@ -337,7 +341,3 @@ button {
 .crunch a:hover {
   text-shadow: -1px 1px 8px rgb(252, 210, 113), 1px -1px 8px #fff;
 }
-
-
-
-
