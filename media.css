@@ -1,15 +1,268 @@
-@media(max-width: 568px) {
+@media only screen and (max-width: 942px)  {
 
-  body {
-    padding: 0px;
-    margin: 0px;
-    background: black;
-    overflow-y: scroll;
-  }
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic);
 
-  .leftpane {
-    display: none;
-  }
+html {
+  width: 100%;
+  overflow: auto;
+}
+
+body {
+  min-width: 100%;
+  overflow: auto;
+}
+
+.leftpane {
+  display: none; 
+}
+
+/*linking tabs*/
+.tab {
+  z-index: -1;
+  position: absolute;
+  border-radius: 1px;
+  border-right:  0px solid rgb(248, 218, 162);
+  border-bottom: 0px solid rgb(248, 218, 162);
+  box-shadow: 0px 0px 0px #888888;
+}
+
+.tab:hover {
+  transform: translate(0,0);
+  -webkit-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  -moz-transform: translate(0,0); 
+
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transform: all 0.5s ease-in-out; 
+  -moz-transform: all 0.5s ease-in-out;
+}
+
+.revealed {
+  transform: translate(0,0);
+  -webkit-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  -moz-transform: translate(0,0); 
+}
+
+.tab p {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 0.6em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#about {
+  left: 5px;
+  top: 0;
+}
+
+#projects {
+  left: 24%;
+  top: 0;
+}
+
+#resume {
+  left: 49%;
+  top: 0;
+}
+
+#contact {
+  left: 75%;
+  top: 0;
+}
+
+/*right pane */
+.rightpane {
+  z-index: -3;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+/*about page */
+.aboutme {
+  text-align: center;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  overflow: auto;
+}
+
+.aboutme h1 {
+  margin: 0 auto;
+  position: relative;
+  font-family: helvetica;
+  font-size: medium;
+  padding: 0 0 20px 0;
+}
+
+.aboutme p {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: small;
+  text-align: justify;
+  position: relative;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.first-letter {
+  font-size: 40px;
+  line-height: 0px;
+}
+
+.img-crop {
+  margin: 110px auto;
+  margin-bottom: 40px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border: 5px solid rgb(252, 252, 252);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.aboutme .mypic {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 150px;
+  height: 150px;
+}
+
+/*resume page*/
+
+.myresume {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  right: -14%;
+  height: 90%;
+}
+
+.res-container {
+  text-align: center;
+  position: relative;
+  margin: 5% auto;
+  width: 90%;
+  border-radius: 30px;
+}
+
+.res-content{
+  padding: 20px;
+}
+.myresume h4, h5{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.myresume p{
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.myresume ul {
+  margin-top: 5px;
+  padding-left: 45px;
+  text-align: left;
+}
+
+.myresume li {
+  padding-left: 5px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.myresume h2 {
+  margin-bottom: 5px;
+}
+
+.projects p {
+  line-height: 1.4;
+  text-align: left;
+}
+
+.role {
+  text-align: left;
+  font-size: 12px;
+}
+
+.location {
+  float: right;
+  font-size: 12px;
+}
+
+/* contact page */
+
+.contactme {
+  text-align: center;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  padding-top: 10%;
+}
+
+.contactme h1 {
+  margin: 0 auto;
+  position: relative;
+  font-family: helvetica;
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+
+.contactme ul {
+  position: relative;
+  padding: 0 200px;
+  margin: 10px auto;
+  list-style-type: none;
+}
+
+.contactme ul li {
+  display: inline;
+  padding: 25px;
+}
+
+
+
+/* projects page */
+
+.myprojects{
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 25%;
+}
+
+.external {
+  line-height: 120px;
+}
+
+.screenshot {
+  width: 171px;
+  height: 97px;
+  border-radius: 10px;
+  border: 3px solid rgb(252, 252, 252);
+}
+
+.myprojects p {
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+.myprojects li {
+  padding-right: 20px;
+  list-style-type: none;
+  display: inline;
+}
+
+.show {
+  display: none;
+}
 
 }
   
