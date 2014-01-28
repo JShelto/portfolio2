@@ -89,8 +89,7 @@ body {
   height: 100%;
   position: fixed;
   left: 0;
-  overflow: auto;
-  z-index: 4;
+  overflow-y: auto;
 }
 
 .aboutme h1 {
@@ -141,7 +140,7 @@ body {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  right: -14%;
+  right: 0;
   height: 90%;
 }
 
