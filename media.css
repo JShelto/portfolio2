@@ -95,13 +95,11 @@ body {
 .aboutme h1 {
   margin: 0 auto;
   position: relative;
-  font-family: helvetica;
   font-size: medium;
   padding: 0 0 20px 0;
 }
 
 .aboutme p {
-  font-family: 'Gentium Book Basic', serif;
   font-size: small;
   text-align: justify;
   position: relative;
@@ -109,21 +107,7 @@ body {
   margin: 0 auto;
 }
 
-.first-letter {
-  font-size: 40px;
-  line-height: 0px;
-}
 
-.img-crop {
-  margin: 110px auto;
-  margin-bottom: 40px;
-  width: 150px;
-  height: 150px;
-  position: relative;
-  border: 5px solid rgb(252, 252, 252);
-  border-radius: 50%;
-  overflow: hidden;
-}
 
 .aboutme .mypic {
   position: absolute;
@@ -148,24 +132,12 @@ body {
   text-align: center;
   position: relative;
   margin: 5% auto;
-  width: 90%;
-  border-radius: 30px;
-}
-
-.res-content{
-  padding: 20px;
-}
-.myresume h4, h5{
-  text-align: left;
-  padding: 0;
-  margin: 0;
-  float: left;
 }
 
 .myresume p{
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: small;
 }
 
 .myresume ul {
@@ -177,11 +149,11 @@ body {
 .myresume li {
   padding-left: 5px;
   text-align: left;
-  font-size: 12px;
+  font-size: small;
 }
 
 .myresume h2 {
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 .projects p {
@@ -191,12 +163,11 @@ body {
 
 .role {
   text-align: left;
-  font-size: 12px;
+  font-size: 0.5em;
 }
 
 .location {
-  float: right;
-  font-size: 12px;
+  display: none;
 }
 
 /* contact page */
@@ -211,7 +182,6 @@ body {
 .contactme h1 {
   margin: 0 auto;
   position: absolute;
-  font-family: helvetica;
   padding: 0 0 20px 0;
   left: 50%;
 }
@@ -220,7 +190,6 @@ body {
   position: relative;
   padding: 0 10px;
   margin: 0;
-  list-style-type: none;
   top: 20%;
   left: 25%;
 }
@@ -240,16 +209,6 @@ body {
   padding-left: 0;
 }
 
-.external {
-  line-height: 120px;
-}
-
-.screenshot {
-  width: 171px;
-  height: 97px;
-  border-radius: 10px;
-  border: 3px solid rgb(252, 252, 252);
-}
 
 .myprojects p {
   font-family: helvetica;
