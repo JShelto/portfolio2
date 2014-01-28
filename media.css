@@ -86,10 +86,9 @@ body {
 /*about page */
 .aboutme {
   text-align: center;
-  height: 100%;
   position: fixed;
   left: 0;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .aboutme h1 {
