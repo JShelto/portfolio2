@@ -218,15 +218,16 @@ body {
 
 .contactme ul {
   position: relative;
-  padding: 10px 50%;
-  margin: 10px auto;
+  padding: 0 10px;
+  margin: 0;
   list-style-type: none;
-  top: 20px;
+  top: 20%;
+  left: 25%;
 }
 
 .contactme ul li {
   display: inline;
-  padding: 25px;
+  padding: 0;
 }
 
 
