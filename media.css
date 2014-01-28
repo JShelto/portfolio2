@@ -55,22 +55,22 @@ body {
 
 #about {
   left: 5px;
-  top: 0;
+  top: 5px;
 }
 
 #projects {
   left: 24%;
-  top: 0;
+  top: 5px;
 }
 
 #resume {
   left: 49%;
-  top: 0;
+  top: 5px;
 }
 
 #contact {
   left: 75%;
-  top: 0;
+  top: 5px;
 }
 
 /*right pane */
