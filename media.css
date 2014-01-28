@@ -80,6 +80,7 @@ body {
   left: 0;
   width: 100%;
   overflow: auto;
+  top: 5%;
 }
 
 /*about page */
@@ -89,6 +90,7 @@ body {
   position: fixed;
   left: 0;
   overflow: auto;
+  z-index: 4;
 }
 
 .aboutme h1 {
@@ -202,7 +204,6 @@ body {
 
 .contactme {
   text-align: center;
-  height: 100%;
   position: fixed;
   left: 0;
   padding-top: 10%;
@@ -210,17 +211,18 @@ body {
 
 .contactme h1 {
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   font-family: helvetica;
   padding: 0 0 20px 0;
-  text-align: center;
+  left: 50%;
 }
 
 .contactme ul {
   position: relative;
-  padding: 0 200px;
+  padding: 10px 50%;
   margin: 10px auto;
   list-style-type: none;
+  top: 20px;
 }
 
 .contactme ul li {
