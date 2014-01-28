@@ -89,6 +89,7 @@ body {
   position: fixed;
   left: 0;
   overflow-y: scroll;
+  top: 0;
 }
 
 .aboutme h1 {
@@ -111,7 +112,7 @@ body {
 .aboutme .mypic {
   position: absolute;
   left: 0;
-  top: 1px;
+  top: 0;
   width: 150px;
   height: 150px;
 }
